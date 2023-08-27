@@ -1,0 +1,176 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    
+    
+   
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+} 
+
+.madrid{
+margin: 0 px;
+max-width: 825px;
+height:200px;
+border-radius: 5px;
+background-image: url("images/skyline-madrid_98.webp");
+background-size: cover;
+margin-left: auto;
+margin-right:auto;
+}
+
+ #welcome{
+     padding: 5px 10px;
+     margin: 5px 0 10px 0;
+     border:solid 5px #457B9D;
+     border-radius:10px;
+     background: #457B9D
+    
+ }   
+
+#enjoy {
+    margin: 0;
+    padding: 4px 10px;
+     border:solid 5px #F1FAEE;
+     border-radius:10px;
+    background: #F1FAEE
+    
+}
+
+h1, h2, h3, h4, p {
+text-shadow: 0 0 1px black;
+}
+
+   
+ 
+
+
+.madrid:hover{
+    
+    
+margin-left: auto;
+margin-right: auto;
+    background-image: url(images/spain.webp)
+    
+}
+
+body {
+    margin: 20px auto;
+    font-family: Times New Roman
+}
+
+.avatar {
+    width: 150px;
+    display:cover;
+    border: 1px solid blueviolet
+}
+
+.avatar:hover{ 
+ border: 2px solid blueviolet;
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;   
+}
+
+
+ .avatar {
+            height: 100px;
+            width: 100px;
+            margin: 0 auto;
+        }
+  
+        
+
+
+.card {
+    width: 300px;
+    margin: 0 auto;
+    padding:50px;
+    display: flex;
+    justify-content:even space-between;
+    text-align: center;
+    flex-direction: column;
+    text-shadow: 0 0 1px black;
+    background: #A8DADC;
+   color: #050609;
+    border-radius: 10px;
+}
+    
+
+
+    
+.coding{
+    text-decoration:underline 
+}  
+
+
+
+#food{
+    width:125px;
+    background: #F1FAEE;
+}
+ 
+ .food2{
+     display:flex;
+     justify-content: space-between;
+     background: #F1FAEE;
+ }
+ #eat{
+     padding:20px;
+     margin:0;
+     background: #F1FAEE; 
+     
+ }
+ 
+ #scuba{
+    margin: 10px auto;
+    padding: 50px 10px 10px 20px;
+    background-size: cover; 
+    background-position: center;
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    color: #f3f6f4;
+    text-shadow: 0 0 2px black;
+               
+}
+
+#warner {
+    margin: 10px auto;
+    padding: 50px 10px 10px 20px;
+    background-size: cover; 
+    background-position: center;
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    color: #f3f6f4;
+    text-shadow: 0 0 2px black;
+}
+
+#park {
+    margin: 10px auto;
+    padding: 50px 10px 10px 20px;
+    background-size: cover; 
+    background-position: center;
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    color: #f3f6f4;
+    text-shadow: 0 0 2px black;
+}
